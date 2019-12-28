@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+nav {
+    background-color:#f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(68, 67, 67);
+    transition: 0.3s;
+    
+}
+
+.menu a:hover {
+  color:red;  
+}
+
+
+
+/* -------------------- */ 
+
+.searchbox {
+    background-color:#2f3640;
+    border-radius:40px;  
+    cursor: pointer; 
+}
+
+#search-txt{
+    text-align: left ;
+    border:none;
+    background: none;
+    color:white;
+    float:left;
+    padding: 0;
+    margin-left:0;
+    line-height: 40px;
+    width:0;
+    transition:1s;
+} 
+
+#search-btn {
+    float:right;
+    color:white;
+    border-radius: 50%;
+    width:40px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    color:rgb(179, 179, 179);
+    opacity: 1;
+}
+/* Hover effects on search button */
+
+.searchbox:hover > #search-btn {
+    border: 1px solid rgb(192, 192, 192);
+    color:#e84118;
+}
+
+.searchbox:hover {
+    background-color:white;
+    border:1px solid grey;
+}
+
+.searchbox:hover > #search-txt {
+    color: rgb(68, 67, 67);;
+    width:150px;
+    margin-left:10px;
+}
+
+/* --------------------*/
+
