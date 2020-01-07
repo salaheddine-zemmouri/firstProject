@@ -12,6 +12,7 @@ nav {
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid rgb(161, 161, 161);
+    margin-bottom:20px;
 }
 
 .menu {
@@ -97,4 +98,43 @@ nav {
 }
 
 /* --------------------*/
+.main-container{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width:250px;
+    height:250px;
+    border: 1px solid black;
+    border-radius:8px;
+    text-align: center;
+    /*background-image:url('../images/unsplash1.jpg');
+    background-size: cover;
+    background-position: center;*/
+    
+}
+
+#content{
+    border-radius:8px;
+    width:248px;
+    background-color:#fab1a0;
+    transition: height .5s ease-in;
+}
+
+#content2{
+    border-radius:8px;
+    width:248px;
+    background-color:#74b9ff;
+    transition: height .5s ease-in;
+}
+
+#content3{
+    border-radius:8px;
+    width:248px;
+    background-color:#81ecec;
+    transition: height .5s ease-in;
+}
 
