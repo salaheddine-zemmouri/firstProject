@@ -229,3 +229,6 @@ footer button:hover{
     font-size: small;
     color:#74768A;
 }
+span{
+    border-bottom: 1px #74768A dotted;
+}
