@@ -32,11 +32,21 @@
 
     </nav>
 
-    <!--
-      <main>
-        <img src="images/workingdude.png" id="workingdude">
-      </main>
-      -->
-  </body>
+    <main>
+      <div class="main-container">
+        <div class="box" onmouseover="on('content')" onmouseout="off('content')">
+          <div id="content"></div>
+        </div>
 
+        <div class="box" onmouseover="on('content2')" onmouseout="off('content2')">
+          <div id="content2"></div>
+        </div>
+
+        <div class="box" onmouseover="on('content3')" onmouseout="off('content3')">
+          <div id="content3"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+<script src="JS/main.js"></script>
 </html>
